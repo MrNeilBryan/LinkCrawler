@@ -1,6 +1,7 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { NextResponse } from 'next/server';
+export const runtime = 'edge';
 
 // Configuration to prevent abuse/timeouts
 const MAX_DEPTH = 2; // recursive depth 0 -> 1 -> 2
